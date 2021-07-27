@@ -1,0 +1,105 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif JP", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bl_contactForm {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.bl_contactForm__wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bl_contactForm__label {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.bl_contactForm_inputBox {
+  height: 30px;
+  font-size: 1.6rem;
+  margin-bottom: 22px;
+}
+.bl_contactForm_inputArea {
+  height: 170px;
+  font-size: 1.6rem;
+  margin-bottom: 80px;
+  padding: 5px;
+}
+
+.el_btn {
+  display: block;
+  height: 60px;
+  width: 235px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 8px;
+          box-shadow: 0 0 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.el_btn:hover, .el_btn:focus {
+  background-color: #e28315;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.el_btn__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bl_link__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.el_textLink {
+  background: #bbbbbb;
+  font-size: 3rem;
+  color: #646464;
+}
+.el_textLink:hover {
+  background: #91cdf3;
+}/*# sourceMappingURL=style.css.map */

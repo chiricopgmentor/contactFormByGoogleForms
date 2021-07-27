@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Noto+Serif:ital,wght@0,700;1,700&display=swap"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Contact Form By Google Forms</title>
+  </head>
+  <body>
+    <div class="bl_contactForm__wrapper">
+      <form
+        class="bl_contactForm"
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfP8brajqnvVminyOr0-tQfncyIIgZ81waj-t7ozFg-7lUbUQ/formResponse"
+      >
+        <label class="bl_contactForm__label" for="email">メールアドレス</label>
+        <input
+          class="bl_contactForm_inputBox"
+          id="email"
+          type="text"
+          name="entry.1957011610"
+          value="example@mail.co.jp"
+        />
+        <label class="bl_contactForm__label" for="msg">お問い合わせ内容</label>
+        <textarea
+          class="bl_contactForm_inputArea"
+          id="msg"
+          name="entry.116454061"
+        >
+テストメッセージ</textarea
+        >
+        <div class="el_btn__wrapper">
+          <button class="el_btn" type="submit" name="button" value="送信">
+            送信
+          </button>
+        </div>
+        <!-- /el_btn__wrapper -->
+      </form>
+    </div>
+    <!-- /el_contactForm__wrapper -->
+    <div class="bl_link__wrapper">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://forms.gle/PEWcvb5yiYWZ8Pvn6"
+        ><p class="el_textLink">Googleフォーム</p>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://docs.google.com/spreadsheets/d/1EYe3jC2n45BW7LWwQo0Sn8_3lMRxlIV46lVhewMqJcw/edit?usp=sharing"
+        ><p class="el_textLink">スプレッドシート</p>
+      </a>
+    </div>
+    <!-- bl_link__wrapper -->
+  </body>
+</html>
